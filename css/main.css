@@ -1,5 +1,6 @@
 body {
-  color: #252525; }
+  color: #252525;
+}
 
 .center{text-align: center;}
 .logo{height: 220px;
@@ -265,7 +266,8 @@ img {
     opacity: 1.0; }
 
 .about-me-text {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .about-me-text a{text-decoration: underline;
   color: #337ab7;
