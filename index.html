@@ -17,17 +17,24 @@
             <div class="col-md-6 col-md-offset-3 center">
               <div class="about-me-title">
                   <img src="./logo.png" class="logo"/>
-              </div>
-              <div class="about-me-text" style="font-size:1.3em;color:#636e72;font-family:'Roboto'">
-                  <div class="opacity-box">
-                    <p>We are a <a href="https://www.youtube.com/channel/UCQHekfV5i_7aIv9qX8ihiNA?sub_confirmation=1" target="_blank">Youtube Channel</a> and we teach Amazon Web Services to IT professionals. In addition to daily videos and blog posts, we organize weekly webinars to help you understand AWS and its services better.</p><br/>
-                    <p>We are also certification focused, and our content helps you prepare for <a href="https://aws.amazon.com/certification/" target="_blank">AWS certifications</a> like Solutions Architect, Developer Associate and DevOps Professional</p><br/>
-                    <p>Signup to our newsletter to get a weekly summary of our content. No spam. No ads.</p>
-                  </div>
-              </div>
-              <div class="about-btns row">
+              </div><br/>
+              <div class="about-me-text row">
                 <div class="col-md-12">
-                  <a href="https://tinyletter.com/awstutor" target="_blank" class="btn btn-lg btn-primary btn-block"><i class="fa fa-bullhorn"></i>&nbsp;&nbsp;Join our Weekly Newsletter</a>
+                  <p>We are a <a href="https://www.youtube.com/channel/UCQHekfV5i_7aIv9qX8ihiNA?sub_confirmation=1" target="_blank">Youtube Channel</a> and we teach Amazon Web Services to IT professionals. In addition to daily videos and blog posts, we organize weekly webinars to help you understand AWS and its services better.</p><br/>
+                  <p>You can also join our <a href="https://www.facebook.com/groups/awstutor" target="_blank">Facebook Group</a> where we answer questions related to AWS topics like S3, EC2, DynamoDB, etc.</p><br/>
+                  <p>Signup to our newsletter to get a weekly summary of our content and get notified of upcoming webinars. No spam, we promise!</p>
+                  <form
+                    action="https://tinyletter.com/awstutor"
+                    method="post"
+                    target="popupwindow"
+                    autofocus
+                    onsubmit="window.open('https://tinyletter.com/awstutor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+                  >
+                    <input type="hidden" value="1" name="embed"/><br/>
+                    <div class="row">
+                      <div class="col-md-9 col-sm-12 col-xs-12"><input type="email" class="form-control input-lg" name="email" id="tlemail" placeholder="Your Email Address" autofocus/></div>
+                      <div class="col-md-3 col-sm-12 col-xs-12"><button type="submit" class="btn btn-lg btn-primary btn-block"><i class="fa fa-chevron-right-o"></i>&nbsp;&nbsp;Go</button></div>
+                  </form>
                 </div>
               </div>
             </div>
